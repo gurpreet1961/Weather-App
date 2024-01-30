@@ -10,11 +10,11 @@ body {
 	height: 90vh;
 	gap: 50px;
 }
-.Result {
+.weather-cards {
 	display: flex;
 	gap: 30px;
 }
-.weather-cards {
+.weather-card {
 	background-color: #fff;
 	width: 250px;
 	padding: 20px;

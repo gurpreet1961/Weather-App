@@ -48,7 +48,7 @@ const App = () => {
 			{isLoading ? (
 				<p>Loading data...</p>
 			) : result.length != 0 ? (
-				<div className="Result">
+				<div className="weather-cards">
 					<Card name={"Temperature"} data={`${result.current.temp_c}°C`} />
 					<Card name={"Humidity"} data={`${result.current.humidity}%`} />
 					<Card name={"Condition"} data={`${result.current.condition.text}`} />
