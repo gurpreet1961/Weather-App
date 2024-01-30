@@ -14,7 +14,7 @@ body {
 	display: flex;
 	gap: 30px;
 }
-.weather-card {
+.weather-cards {
 	background-color: #fff;
 	width: 250px;
 	padding: 20px;
